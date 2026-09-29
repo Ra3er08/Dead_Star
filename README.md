@@ -2,4 +2,4 @@
 
 Абдуллин Ранэль, Гилязутдинов Айнур
 
-C#,MySQL, 
+C#,MySQL,Visual Studio
