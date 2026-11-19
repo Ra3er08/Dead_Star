@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2026-10-31T00:00:00.000Z" agent="OpenAI" version="24.7.17">
+  <diagram id="ss-726602" name="Предметная область">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Ассортимент обуви&amp;#xa;карточки • цены • остатки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF5;strokeColor=#36556F;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Справочники&amp;#xa;категории • производители • поставщики" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF5;strokeColor=#36556F;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Доступ&amp;#xa;пользователи • роли" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF5;strokeColor=#36556F;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Продажи&amp;#xa;заказы • строки • статусы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE9CF;strokeColor=#36556F;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="800" y="220" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Получение&amp;#xa;пункты выдачи" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF5;strokeColor=#36556F;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="800" y="50" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" value="классификация" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#536B7D;fontSize=11;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" value="доступ к покупке" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#536B7D;fontSize=11;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" value="позиции заказа" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#536B7D;fontSize=11;" edge="1" parent="1" source="2" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" value="получение" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#536B7D;fontSize=11;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
